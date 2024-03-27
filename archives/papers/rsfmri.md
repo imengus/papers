@@ -1,0 +1,22 @@
+# Significant
+- amplitude of low frequency fluctuations
+- regional homogeneity using Kendall coefficient in low frequency range, with nearest neighbors
+- 0.01 - 0.027 cortical neuronal activity
+- 0.073 basal ganglia
+- functional correlation tensors
+- smoothed voxels --> get significantly connected voxels together and their edges
+- cortical surface ReHo: 53 Zuo et al
+- signal power
+- functional connectivitiy density analysis
+- ICA and graph analysis
+- seed based metrics
+	- cross correlation coefficient
+	- partial correlations
+	- multiple regressions
+	- synchronisation likelihood
+- multivariate decomposition
+- DMN emerges from ICA analysis
+- single networks may be broken into sub networks
+- independent vector analysis
+- Automated Anatomical Labeling gives 116 nodes
+- use FCD, fractional ALFF, ReHo, and graph theory to identify ROI

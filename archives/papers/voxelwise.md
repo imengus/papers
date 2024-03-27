@@ -1,0 +1,3 @@
+- # Significant
+- fourier analysis --> frequency domain
+- distance between voxel time series can be Euclidian distance or Pearson's coefficient

@@ -1,0 +1,23 @@
+- [x] ABIDE and Southwest brain scans combined
+- [ ] scan parameters (MRI wiki):
+	- [ ] voxel sizes
+	- [ ] structural/ functional flip angle
+	- [x] structural/ functional echo time
+	- [x] s/f repetition time
+- [x] all healthy subjects selected with FRT = 2 / time between each radiofrequency pulse
+- [x] classify into five life span stages (Erikson's stages)
+- [ ] FSL - FSL wiki/ tutorial videos
+- [ ] AFNI - AFNI intro, Cox 1996
+- [ ] preprocessing - FSL lectures + walkthrough / other's implementation's online
+	- [x] extract brain tissue from T1 image - other's implementations in FSL tutorial
+	- [x] segment into GM, WM, CSF
+	- [x] magnetic stability correction: remove first five volumes
+	- [ ] registering volumes: using least square optimisation with three translational and three rotational variables
+	- [x] Gaussian kernel FWHM = 5mm smoothing of volumes
+	- [ ] voxel time series: exclude non relevant information: band pass filtering (0.01-0.09 Hz)
+	- [ ] voxel time series: 3 translational + 3 rotational confound regression of motion/ WM/ CSF signals
+	- [ ] volume normalisation to MNI152 standard space: optimisation of 12 variables: 3 translational, 3 rotational, 3 scaling, 3 shearing variables
+	- [ ] NOT regressing out the global signal
+	- [ ] low extraction and registration quality inspection
+	- [ ] how acquired: movement parameters greater than one voxel size
+- [ ] extract 268 regional activity patterns of first 147 volumes based on Shen's atlas

@@ -1,0 +1,31 @@
+- 
+- partbal: switching function: 5
+- partbal: Laplacian matrix eigenvalues: 7
+- partbal: degree of balance: 2
+- partbal: appropriate weighting function: 11
+- partbal: algorithms for counting simple cycles: 9, 12
+- partbal: efficient algorithm for computing triangle index: 13
+- partbal: algebraic conflict: 6, 19, 20
+- partbal: frus estimation: 16, 17, 22
+- partbal: iterative pearsons on columns/ blockmodelling: 28
+- partbal: null triangle values: 31-34
+
+- underused due to computational complexity
+- cycles containing a odd number of negative edges = unstable, not just triad
+- there are different measures of balance: cycles, triangles, eigenvalues
+- frustration index = line index of balance = minimum number of edges that keep the network away from total balance
+- pearsons vs other measures of time series?
+- monotone subsystems?
+- Ising model without special structure?
+- Davis's weak balance vs frustration index?
+- correlation clustering problem?
+- 36000 edges using shen's regions
+- balances = bipolarity = if each negative edge joins vertices belonging to different subsets
+- breadth first search
+- if eigenvalues of signed and unsigned adjacency matrices are equal, signed network is balanced?
+- switching function: sign of cycle remains the same if all nodes in one
+- use weighting function in degree of balance depending on which length of cycle you want to give priority to
+- unbalanced triads account mostly for tension and disonance
+- for acyclic graphs, divide by 1
+- graph density is 2m / n(n-1)
+- why are they coloured white or black?

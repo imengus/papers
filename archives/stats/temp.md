@@ -1,0 +1,5 @@
+- motion correction can reduce noise
+- (motion parameters as predictors of no interest soaking up variance)
+- full width at half maximum
+- when spacial noise cancels time course signals reinforce one another
+- 
